@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Deepak Gadde Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="steller.css">
+
+    <style>
+        .wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d";
+  align-items: start;
+}
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
+}
+.item3 {
+  grid-area: c;
+}
+.item4 {
+  grid-area: d;
+}
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="" alt=""><strong>Portfolio</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+      
+        <div class="container">     
+        
+        <h1 style="margin-left: 150px;color: tomato; font-size: 60px;"> Hello ! I'm <span class="auto" style="color: black;"></span></h1>   
+    </div>          
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>    
+        <script>
+            var typed= new Typed(".auto",{
+                strings:["Deepak Gadde","an Aspiring Data Engineer!"],
+                typeSpeed:90,
+                backSpeed:90,
+                loop:true
+            }) 
+        </script>
+        
+
+
+        <!-- Header-widget -->
+        
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="gd.jpg" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Deepak Gadde</h6>
+                    <p class="subtitle">Aspiring Data Engineer</p>
+                    <p>Hello I'm <strong>Deepak Gadde</strong> an international student currently pursuing a master's in information systems at Iowa State University. I'm  now eager to use my expertise in the dynamic data engineering realm. With a strong foundation in programming and a passion for leveraging cutting-edge technologies, contribute my skills to the field of data engineering to design, build, and optimize robust data infrastructure.
+    </p>   <p>I'm great at challenging projects that needs me to work even outside my expertise and skill acquisition. I was driven by an innate desire to serve the best to people(maximizing their capital) and was ready to adapt in any required situation.</p>
+    <p>I specialize in designing and implementing robust data architectures and pipelines. My expertise includes data modeling, ETL processes, and integration of diverse data sources. I work with big data technologies, cloud platforms, and ensure data quality and governance. Proficient in managing databases, implementing machine learning in data workflows, and optimizing for performance and cost efficiency</p>
+                    <button class="btn btn-primary rounded mt-3">Download Resume</button>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section" id="skills">
+        <div class="container text-center">
+            <h6 class="subtitle"></h6>
+            <h6 class="section-title mb-4">Skills</h6>
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Python</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 93%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>93%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">SQL</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Apache Spark</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Google Big query</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Apache Airflow</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Amazon web services</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Git (version control)</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <section class="section" id="projects" >
+        <div class="container text-center">
+        <h6 class="subtitle"></h6>
+        <h6 class="section-title mb-4">Projects</h6>
+        <div class="row row-cols-3 g-3">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Logistics Demand Prediction for Shipping and Distribution</h5>
+                  <p class="card-text" style="text-align: start;">
+	Designed and implemented a robust ETL data pipeline, optimizing inventory management and ensuring timely deliveries.Developed a demand forecasting system using historical data and stored meaningful information in an SQL database.
+
+                  </p>
+                  <a href="#" class="btn btn-primary">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card"style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Twitter Data pipeline </h5><br><br>
+                  <p class="card-text">
+                    Designed and developed a data pipeline extracting user data from the Twitter API.Deployed the pipeline on Apache Airflow hosted on Amazon EC2, storing the data in Amazon S3.   
+                  </p><br><br>
+                  <a href="https://github.com/deepak2509/DataEngineering-project-with-twitter-data.git" class="btn btn-primary">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Data Pipeline for YouTube analysis  </h5><br>
+                    <p class="card-text">
+	Built a scalable mechanism for ingesting and transforming data from various sources using AWS.Created a dashboard to analyze data, utilizing services such as AWS for efficient processing
+                    </p><br><br>
+                    <a href="https://github.com/deepak2509/DataEngineering-project2-YouTube-analysis.git" class="btn btn-primary">Github</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        
+    </section>
+   
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="#" target="_blank">DeepakGadde</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="https://github.com/deepak2509"><i class="ti-github"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                        <a class="social-item" href="https://linkedin.com/in/deepak-gadde"><i class="ti-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+
+</body>
+</html>
